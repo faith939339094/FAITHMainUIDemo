@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC65F4151DF1633D002952CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4141DF1633D002952CB /* main.m */; };
+		DC65F4201DF1633D002952CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC65F41F1DF1633D002952CB /* Assets.xcassets */; };
+		DC65F4231DF1633D002952CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC65F4211DF1633D002952CB /* LaunchScreen.storyboard */; };
+		DC65F4371DF164EA002952CB /* FAITHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F42E1DF164EA002952CB /* FAITHNavigationController.m */; };
+		DC65F4381DF164EA002952CB /* FAITHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4301DF164EA002952CB /* FAITHTabBarController.m */; };
+		DC65F4391DF164EA002952CB /* FAITHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4341DF164EA002952CB /* FAITHButton.m */; };
+		DC65F43A1DF164EA002952CB /* FAITHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4361DF164EA002952CB /* FAITHTabBar.m */; };
+		DC65F4461DF1658D002952CB /* NSDate(Extension).m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F43F1DF1658D002952CB /* NSDate(Extension).m */; };
+		DC65F4471DF1658D002952CB /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4411DF1658D002952CB /* UIBarButtonItem+Extension.m */; };
+		DC65F4481DF1658D002952CB /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4431DF1658D002952CB /* UIImage+Extension.m */; };
+		DC65F4491DF1658D002952CB /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4451DF1658D002952CB /* UIView+Extension.m */; };
+		DC65F45A1DF165BE002952CB /* 798 in Resources */ = {isa = PBXBuildFile; fileRef = DC65F44C1DF165BE002952CB /* 798 */; };
+		DC65F45B1DF165BE002952CB /* BeautifulDay.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC65F44D1DF165BE002952CB /* BeautifulDay.plist */; };
+		DC65F45C1DF165BE002952CB /* Classify in Resources */ = {isa = PBXBuildFile; fileRef = DC65F44E1DF165BE002952CB /* Classify */; };
+		DC65F45D1DF165BE002952CB /* Classify.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC65F44F1DF165BE002952CB /* Classify.plist */; };
+		DC65F45E1DF165BE002952CB /* Details in Resources */ = {isa = PBXBuildFile; fileRef = DC65F4501DF165BE002952CB /* Details */; };
+		DC65F45F1DF165BE002952CB /* events in Resources */ = {isa = PBXBuildFile; fileRef = DC65F4511DF165BE002952CB /* events */; };
+		DC65F4601DF165BE002952CB /* Experience in Resources */ = {isa = PBXBuildFile; fileRef = DC65F4521DF165BE002952CB /* Experience */; };
+		DC65F4611DF165BE002952CB /* experience.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC65F4531DF165BE002952CB /* experience.plist */; };
+		DC65F4621DF165BE002952CB /* More in Resources */ = {isa = PBXBuildFile; fileRef = DC65F4541DF165BE002952CB /* More */; };
+		DC65F4631DF165BE002952CB /* Nears in Resources */ = {isa = PBXBuildFile; fileRef = DC65F4551DF165BE002952CB /* Nears */; };
+		DC65F4641DF165BE002952CB /* theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC65F4561DF165BE002952CB /* theme.plist */; };
+		DC65F4651DF165BE002952CB /* themes in Resources */ = {isa = PBXBuildFile; fileRef = DC65F4571DF165BE002952CB /* themes */; };
+		DC65F4661DF165BE002952CB /* 三里屯 in Resources */ = {isa = PBXBuildFile; fileRef = DC65F4581DF165BE002952CB /* 三里屯 */; };
+		DC65F4671DF165BE002952CB /* 南锣鼓巷 in Resources */ = {isa = PBXBuildFile; fileRef = DC65F4591DF165BE002952CB /* 南锣鼓巷 */; };
+		DC65F4931DF16619002952CB /* FAITHAblumController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F46B1DF16619002952CB /* FAITHAblumController.m */; };
+		DC65F4941DF16619002952CB /* FAITHBeautifulDayController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F46D1DF16619002952CB /* FAITHBeautifulDayController.m */; };
+		DC65F4961DF16619002952CB /* FAITHFoundStoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4711DF16619002952CB /* FAITHFoundStoreController.m */; };
+		DC65F4991DF16619002952CB /* FAITHBeautifulDay.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4781DF16619002952CB /* FAITHBeautifulDay.m */; };
+		DC65F49A1DF16619002952CB /* FAITHBeautifulDayFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F47A1DF16619002952CB /* FAITHBeautifulDayFrame.m */; };
+		DC65F49B1DF16619002952CB /* FAITHEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F47C1DF16619002952CB /* FAITHEvents.m */; };
+		DC65F49C1DF16619002952CB /* FAITHThemes.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F47E1DF16619002952CB /* FAITHThemes.m */; };
+		DC65F49D1DF16619002952CB /* FAITHAblumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4811DF16619002952CB /* FAITHAblumCell.m */; };
+		DC65F49E1DF16619002952CB /* FAITHCityButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4831DF16619002952CB /* FAITHCityButton.m */; };
+		DC65F4A11DF16619002952CB /* FAITHFoundCellEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4891DF16619002952CB /* FAITHFoundCellEventView.m */; };
+		DC65F4A21DF16619002952CB /* FAITHFoundCellFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F48B1DF16619002952CB /* FAITHFoundCellFootView.m */; };
+		DC65F4A31DF16619002952CB /* FAITHFoundCellHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F48D1DF16619002952CB /* FAITHFoundCellHeadView.m */; };
+		DC65F4A41DF16619002952CB /* FAITHFoundStoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F48F1DF16619002952CB /* FAITHFoundStoreCell.m */; };
+		DC65F4A51DF16619002952CB /* FAITHTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4911DF16619002952CB /* FAITHTitleView.m */; };
+		DC65F4A61DF16619002952CB /* FAITHTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC65F4921DF16619002952CB /* FAITHTitleView.xib */; };
+		DC65F4AE1DF16C95002952CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4AB1DF16C95002952CB /* AppDelegate.m */; };
+		DC65F4AF1DF16C95002952CB /* FAITHChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4AD1DF16C95002952CB /* FAITHChooseViewController.m */; };
+		EF78F16AFC1D4569DF2AB793 /* Pods_FAITHMainUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A848F3BC4C78CFA36B34F5E /* Pods_FAITHMainUIDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BC628C1A182309A8541E9C1 /* Pods-FAITHMainUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAITHMainUIDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FAITHMainUIDemo/Pods-FAITHMainUIDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7A848F3BC4C78CFA36B34F5E /* Pods_FAITHMainUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FAITHMainUIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		914CB45B3022D52E761F4A61 /* Pods-FAITHMainUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAITHMainUIDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FAITHMainUIDemo/Pods-FAITHMainUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DC65F4101DF1633D002952CB /* FAITHMainUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAITHMainUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC65F4141DF1633D002952CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC65F41F1DF1633D002952CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC65F4221DF1633D002952CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC65F4241DF1633D002952CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC65F42D1DF164EA002952CB /* FAITHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAITHNavigationController.h; path = ../FAITHNavigationController.h; sourceTree = "<group>"; };
+		DC65F42E1DF164EA002952CB /* FAITHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAITHNavigationController.m; path = ../FAITHNavigationController.m; sourceTree = "<group>"; };
+		DC65F42F1DF164EA002952CB /* FAITHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAITHTabBarController.h; path = ../FAITHTabBarController.h; sourceTree = "<group>"; };
+		DC65F4301DF164EA002952CB /* FAITHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAITHTabBarController.m; path = ../FAITHTabBarController.m; sourceTree = "<group>"; };
+		DC65F4331DF164EA002952CB /* FAITHButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHButton.h; sourceTree = "<group>"; };
+		DC65F4341DF164EA002952CB /* FAITHButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHButton.m; sourceTree = "<group>"; };
+		DC65F4351DF164EA002952CB /* FAITHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHTabBar.h; sourceTree = "<group>"; };
+		DC65F4361DF164EA002952CB /* FAITHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHTabBar.m; sourceTree = "<group>"; };
+		DC65F43E1DF1658D002952CB /* NSDate(Extension).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate(Extension).h"; sourceTree = "<group>"; };
+		DC65F43F1DF1658D002952CB /* NSDate(Extension).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate(Extension).m"; sourceTree = "<group>"; };
+		DC65F4401DF1658D002952CB /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		DC65F4411DF1658D002952CB /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		DC65F4421DF1658D002952CB /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		DC65F4431DF1658D002952CB /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		DC65F4441DF1658D002952CB /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		DC65F4451DF1658D002952CB /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		DC65F44C1DF165BE002952CB /* 798 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 798; sourceTree = "<group>"; };
+		DC65F44D1DF165BE002952CB /* BeautifulDay.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BeautifulDay.plist; sourceTree = "<group>"; };
+		DC65F44E1DF165BE002952CB /* Classify */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Classify; sourceTree = "<group>"; };
+		DC65F44F1DF165BE002952CB /* Classify.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Classify.plist; sourceTree = "<group>"; };
+		DC65F4501DF165BE002952CB /* Details */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Details; sourceTree = "<group>"; };
+		DC65F4511DF165BE002952CB /* events */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = events; sourceTree = "<group>"; };
+		DC65F4521DF165BE002952CB /* Experience */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Experience; sourceTree = "<group>"; };
+		DC65F4531DF165BE002952CB /* experience.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = experience.plist; sourceTree = "<group>"; };
+		DC65F4541DF165BE002952CB /* More */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = More; sourceTree = "<group>"; };
+		DC65F4551DF165BE002952CB /* Nears */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nears; sourceTree = "<group>"; };
+		DC65F4561DF165BE002952CB /* theme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = theme.plist; sourceTree = "<group>"; };
+		DC65F4571DF165BE002952CB /* themes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = themes; sourceTree = "<group>"; };
+		DC65F4581DF165BE002952CB /* 三里屯 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "三里屯"; sourceTree = "<group>"; };
+		DC65F4591DF165BE002952CB /* 南锣鼓巷 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "南锣鼓巷"; sourceTree = "<group>"; };
+		DC65F46A1DF16619002952CB /* FAITHAblumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHAblumController.h; sourceTree = "<group>"; };
+		DC65F46B1DF16619002952CB /* FAITHAblumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHAblumController.m; sourceTree = "<group>"; };
+		DC65F46C1DF16619002952CB /* FAITHBeautifulDayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHBeautifulDayController.h; sourceTree = "<group>"; };
+		DC65F46D1DF16619002952CB /* FAITHBeautifulDayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHBeautifulDayController.m; sourceTree = "<group>"; };
+		DC65F4701DF16619002952CB /* FAITHFoundStoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHFoundStoreController.h; sourceTree = "<group>"; };
+		DC65F4711DF16619002952CB /* FAITHFoundStoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHFoundStoreController.m; sourceTree = "<group>"; };
+		DC65F4771DF16619002952CB /* FAITHBeautifulDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHBeautifulDay.h; sourceTree = "<group>"; };
+		DC65F4781DF16619002952CB /* FAITHBeautifulDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHBeautifulDay.m; sourceTree = "<group>"; };
+		DC65F4791DF16619002952CB /* FAITHBeautifulDayFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHBeautifulDayFrame.h; sourceTree = "<group>"; };
+		DC65F47A1DF16619002952CB /* FAITHBeautifulDayFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHBeautifulDayFrame.m; sourceTree = "<group>"; };
+		DC65F47B1DF16619002952CB /* FAITHEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHEvents.h; sourceTree = "<group>"; };
+		DC65F47C1DF16619002952CB /* FAITHEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHEvents.m; sourceTree = "<group>"; };
+		DC65F47D1DF16619002952CB /* FAITHThemes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHThemes.h; sourceTree = "<group>"; };
+		DC65F47E1DF16619002952CB /* FAITHThemes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHThemes.m; sourceTree = "<group>"; };
+		DC65F4801DF16619002952CB /* FAITHAblumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHAblumCell.h; sourceTree = "<group>"; };
+		DC65F4811DF16619002952CB /* FAITHAblumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHAblumCell.m; sourceTree = "<group>"; };
+		DC65F4821DF16619002952CB /* FAITHCityButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHCityButton.h; sourceTree = "<group>"; };
+		DC65F4831DF16619002952CB /* FAITHCityButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHCityButton.m; sourceTree = "<group>"; };
+		DC65F4881DF16619002952CB /* FAITHFoundCellEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHFoundCellEventView.h; sourceTree = "<group>"; };
+		DC65F4891DF16619002952CB /* FAITHFoundCellEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHFoundCellEventView.m; sourceTree = "<group>"; };
+		DC65F48A1DF16619002952CB /* FAITHFoundCellFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHFoundCellFootView.h; sourceTree = "<group>"; };
+		DC65F48B1DF16619002952CB /* FAITHFoundCellFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHFoundCellFootView.m; sourceTree = "<group>"; };
+		DC65F48C1DF16619002952CB /* FAITHFoundCellHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHFoundCellHeadView.h; sourceTree = "<group>"; };
+		DC65F48D1DF16619002952CB /* FAITHFoundCellHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHFoundCellHeadView.m; sourceTree = "<group>"; };
+		DC65F48E1DF16619002952CB /* FAITHFoundStoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHFoundStoreCell.h; sourceTree = "<group>"; };
+		DC65F48F1DF16619002952CB /* FAITHFoundStoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHFoundStoreCell.m; sourceTree = "<group>"; };
+		DC65F4901DF16619002952CB /* FAITHTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHTitleView.h; sourceTree = "<group>"; };
+		DC65F4911DF16619002952CB /* FAITHTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHTitleView.m; sourceTree = "<group>"; };
+		DC65F4921DF16619002952CB /* FAITHTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAITHTitleView.xib; sourceTree = "<group>"; };
+		DC65F4A81DF169C4002952CB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DC65F4AA1DF16C95002952CB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC65F4AB1DF16C95002952CB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC65F4AC1DF16C95002952CB /* FAITHChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHChooseViewController.h; sourceTree = "<group>"; };
+		DC65F4AD1DF16C95002952CB /* FAITHChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHChooseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC65F40D1DF1633D002952CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF78F16AFC1D4569DF2AB793 /* Pods_FAITHMainUIDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B932CF79D99EF4BC8605DDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A848F3BC4C78CFA36B34F5E /* Pods_FAITHMainUIDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA94391966CC9B22640ED6E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				914CB45B3022D52E761F4A61 /* Pods-FAITHMainUIDemo.debug.xcconfig */,
+				6BC628C1A182309A8541E9C1 /* Pods-FAITHMainUIDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC65F4071DF1633D002952CB = {
+			isa = PBXGroup;
+			children = (
+				DC65F4121DF1633D002952CB /* FAITHMainUIDemo */,
+				DC65F4111DF1633D002952CB /* Products */,
+				BA94391966CC9B22640ED6E7 /* Pods */,
+				8B932CF79D99EF4BC8605DDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC65F4111DF1633D002952CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F4101DF1633D002952CB /* FAITHMainUIDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC65F4121DF1633D002952CB /* FAITHMainUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F42A1DF164D1002952CB /* Classes */,
+				DC65F41F1DF1633D002952CB /* Assets.xcassets */,
+				DC65F4211DF1633D002952CB /* LaunchScreen.storyboard */,
+				DC65F4241DF1633D002952CB /* Info.plist */,
+				DC65F4131DF1633D002952CB /* Supporting Files */,
+				DC65F4A81DF169C4002952CB /* PrefixHeader.pch */,
+			);
+			path = FAITHMainUIDemo;
+			sourceTree = "<group>";
+		};
+		DC65F4131DF1633D002952CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F4141DF1633D002952CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC65F42A1DF164D1002952CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F4681DF16605002952CB /* FoundStore */,
+				DC65F43B1DF1653E002952CB /* Other */,
+				DC65F42B1DF164EA002952CB /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DC65F42B1DF164EA002952CB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F42C1DF164EA002952CB /* Controller */,
+				DC65F4311DF164EA002952CB /* Model */,
+				DC65F4321DF164EA002952CB /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DC65F42C1DF164EA002952CB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F42D1DF164EA002952CB /* FAITHNavigationController.h */,
+				DC65F42E1DF164EA002952CB /* FAITHNavigationController.m */,
+				DC65F42F1DF164EA002952CB /* FAITHTabBarController.h */,
+				DC65F4301DF164EA002952CB /* FAITHTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC65F4311DF164EA002952CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC65F4321DF164EA002952CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F4331DF164EA002952CB /* FAITHButton.h */,
+				DC65F4341DF164EA002952CB /* FAITHButton.m */,
+				DC65F4351DF164EA002952CB /* FAITHTabBar.h */,
+				DC65F4361DF164EA002952CB /* FAITHTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC65F43B1DF1653E002952CB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F4A91DF16C95002952CB /* Controller */,
+				DC65F44B1DF165BE002952CB /* CustomData */,
+				DC65F43D1DF16572002952CB /* Catagroy */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DC65F43D1DF16572002952CB /* Catagroy */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F43E1DF1658D002952CB /* NSDate(Extension).h */,
+				DC65F43F1DF1658D002952CB /* NSDate(Extension).m */,
+				DC65F4401DF1658D002952CB /* UIBarButtonItem+Extension.h */,
+				DC65F4411DF1658D002952CB /* UIBarButtonItem+Extension.m */,
+				DC65F4421DF1658D002952CB /* UIImage+Extension.h */,
+				DC65F4431DF1658D002952CB /* UIImage+Extension.m */,
+				DC65F4441DF1658D002952CB /* UIView+Extension.h */,
+				DC65F4451DF1658D002952CB /* UIView+Extension.m */,
+			);
+			path = Catagroy;
+			sourceTree = "<group>";
+		};
+		DC65F44B1DF165BE002952CB /* CustomData */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F44C1DF165BE002952CB /* 798 */,
+				DC65F44D1DF165BE002952CB /* BeautifulDay.plist */,
+				DC65F44E1DF165BE002952CB /* Classify */,
+				DC65F44F1DF165BE002952CB /* Classify.plist */,
+				DC65F4501DF165BE002952CB /* Details */,
+				DC65F4511DF165BE002952CB /* events */,
+				DC65F4521DF165BE002952CB /* Experience */,
+				DC65F4531DF165BE002952CB /* experience.plist */,
+				DC65F4541DF165BE002952CB /* More */,
+				DC65F4551DF165BE002952CB /* Nears */,
+				DC65F4561DF165BE002952CB /* theme.plist */,
+				DC65F4571DF165BE002952CB /* themes */,
+				DC65F4581DF165BE002952CB /* 三里屯 */,
+				DC65F4591DF165BE002952CB /* 南锣鼓巷 */,
+			);
+			path = CustomData;
+			sourceTree = "<group>";
+		};
+		DC65F4681DF16605002952CB /* FoundStore */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F4691DF16619002952CB /* Controller */,
+				DC65F4761DF16619002952CB /* Model */,
+				DC65F47F1DF16619002952CB /* View */,
+			);
+			path = FoundStore;
+			sourceTree = "<group>";
+		};
+		DC65F4691DF16619002952CB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F46A1DF16619002952CB /* FAITHAblumController.h */,
+				DC65F46B1DF16619002952CB /* FAITHAblumController.m */,
+				DC65F46C1DF16619002952CB /* FAITHBeautifulDayController.h */,
+				DC65F46D1DF16619002952CB /* FAITHBeautifulDayController.m */,
+				DC65F4701DF16619002952CB /* FAITHFoundStoreController.h */,
+				DC65F4711DF16619002952CB /* FAITHFoundStoreController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC65F4761DF16619002952CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F4771DF16619002952CB /* FAITHBeautifulDay.h */,
+				DC65F4781DF16619002952CB /* FAITHBeautifulDay.m */,
+				DC65F4791DF16619002952CB /* FAITHBeautifulDayFrame.h */,
+				DC65F47A1DF16619002952CB /* FAITHBeautifulDayFrame.m */,
+				DC65F47B1DF16619002952CB /* FAITHEvents.h */,
+				DC65F47C1DF16619002952CB /* FAITHEvents.m */,
+				DC65F47D1DF16619002952CB /* FAITHThemes.h */,
+				DC65F47E1DF16619002952CB /* FAITHThemes.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC65F47F1DF16619002952CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F4801DF16619002952CB /* FAITHAblumCell.h */,
+				DC65F4811DF16619002952CB /* FAITHAblumCell.m */,
+				DC65F4821DF16619002952CB /* FAITHCityButton.h */,
+				DC65F4831DF16619002952CB /* FAITHCityButton.m */,
+				DC65F4881DF16619002952CB /* FAITHFoundCellEventView.h */,
+				DC65F4891DF16619002952CB /* FAITHFoundCellEventView.m */,
+				DC65F48A1DF16619002952CB /* FAITHFoundCellFootView.h */,
+				DC65F48B1DF16619002952CB /* FAITHFoundCellFootView.m */,
+				DC65F48C1DF16619002952CB /* FAITHFoundCellHeadView.h */,
+				DC65F48D1DF16619002952CB /* FAITHFoundCellHeadView.m */,
+				DC65F48E1DF16619002952CB /* FAITHFoundStoreCell.h */,
+				DC65F48F1DF16619002952CB /* FAITHFoundStoreCell.m */,
+				DC65F4901DF16619002952CB /* FAITHTitleView.h */,
+				DC65F4911DF16619002952CB /* FAITHTitleView.m */,
+				DC65F4921DF16619002952CB /* FAITHTitleView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC65F4A91DF16C95002952CB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC65F4AA1DF16C95002952CB /* AppDelegate.h */,
+				DC65F4AB1DF16C95002952CB /* AppDelegate.m */,
+				DC65F4AC1DF16C95002952CB /* FAITHChooseViewController.h */,
+				DC65F4AD1DF16C95002952CB /* FAITHChooseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC65F40F1DF1633D002952CB /* FAITHMainUIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC65F4271DF1633D002952CB /* Build configuration list for PBXNativeTarget "FAITHMainUIDemo" */;
+			buildPhases = (
+				168CEB051CA73B41EA2E04AC /* [CP] Check Pods Manifest.lock */,
+				DC65F40C1DF1633D002952CB /* Sources */,
+				DC65F40D1DF1633D002952CB /* Frameworks */,
+				DC65F40E1DF1633D002952CB /* Resources */,
+				8D660322879DFEA498A508D3 /* [CP] Embed Pods Frameworks */,
+				D41823AE167883E0C581CA17 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FAITHMainUIDemo;
+			productName = FAITHMainUIDemo;
+			productReference = DC65F4101DF1633D002952CB /* FAITHMainUIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC65F4081DF1633D002952CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = FAITH;
+				TargetAttributes = {
+					DC65F40F1DF1633D002952CB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC65F40B1DF1633D002952CB /* Build configuration list for PBXProject "FAITHMainUIDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC65F4071DF1633D002952CB;
+			productRefGroup = DC65F4111DF1633D002952CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC65F40F1DF1633D002952CB /* FAITHMainUIDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC65F40E1DF1633D002952CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC65F4651DF165BE002952CB /* themes in Resources */,
+				DC65F4611DF165BE002952CB /* experience.plist in Resources */,
+				DC65F45A1DF165BE002952CB /* 798 in Resources */,
+				DC65F4231DF1633D002952CB /* LaunchScreen.storyboard in Resources */,
+				DC65F4A61DF16619002952CB /* FAITHTitleView.xib in Resources */,
+				DC65F4201DF1633D002952CB /* Assets.xcassets in Resources */,
+				DC65F4621DF165BE002952CB /* More in Resources */,
+				DC65F45F1DF165BE002952CB /* events in Resources */,
+				DC65F4631DF165BE002952CB /* Nears in Resources */,
+				DC65F4671DF165BE002952CB /* 南锣鼓巷 in Resources */,
+				DC65F45B1DF165BE002952CB /* BeautifulDay.plist in Resources */,
+				DC65F4641DF165BE002952CB /* theme.plist in Resources */,
+				DC65F4601DF165BE002952CB /* Experience in Resources */,
+				DC65F45E1DF165BE002952CB /* Details in Resources */,
+				DC65F4661DF165BE002952CB /* 三里屯 in Resources */,
+				DC65F45D1DF165BE002952CB /* Classify.plist in Resources */,
+				DC65F45C1DF165BE002952CB /* Classify in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		168CEB051CA73B41EA2E04AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D660322879DFEA498A508D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FAITHMainUIDemo/Pods-FAITHMainUIDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D41823AE167883E0C581CA17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FAITHMainUIDemo/Pods-FAITHMainUIDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC65F40C1DF1633D002952CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC65F4931DF16619002952CB /* FAITHAblumController.m in Sources */,
+				DC65F4491DF1658D002952CB /* UIView+Extension.m in Sources */,
+				DC65F4A31DF16619002952CB /* FAITHFoundCellHeadView.m in Sources */,
+				DC65F4961DF16619002952CB /* FAITHFoundStoreController.m in Sources */,
+				DC65F49B1DF16619002952CB /* FAITHEvents.m in Sources */,
+				DC65F49D1DF16619002952CB /* FAITHAblumCell.m in Sources */,
+				DC65F4391DF164EA002952CB /* FAITHButton.m in Sources */,
+				DC65F49E1DF16619002952CB /* FAITHCityButton.m in Sources */,
+				DC65F4471DF1658D002952CB /* UIBarButtonItem+Extension.m in Sources */,
+				DC65F4A41DF16619002952CB /* FAITHFoundStoreCell.m in Sources */,
+				DC65F43A1DF164EA002952CB /* FAITHTabBar.m in Sources */,
+				DC65F4941DF16619002952CB /* FAITHBeautifulDayController.m in Sources */,
+				DC65F4371DF164EA002952CB /* FAITHNavigationController.m in Sources */,
+				DC65F4A21DF16619002952CB /* FAITHFoundCellFootView.m in Sources */,
+				DC65F4461DF1658D002952CB /* NSDate(Extension).m in Sources */,
+				DC65F4A51DF16619002952CB /* FAITHTitleView.m in Sources */,
+				DC65F4AE1DF16C95002952CB /* AppDelegate.m in Sources */,
+				DC65F4991DF16619002952CB /* FAITHBeautifulDay.m in Sources */,
+				DC65F4381DF164EA002952CB /* FAITHTabBarController.m in Sources */,
+				DC65F4AF1DF16C95002952CB /* FAITHChooseViewController.m in Sources */,
+				DC65F4A11DF16619002952CB /* FAITHFoundCellEventView.m in Sources */,
+				DC65F4151DF1633D002952CB /* main.m in Sources */,
+				DC65F4481DF1658D002952CB /* UIImage+Extension.m in Sources */,
+				DC65F49A1DF16619002952CB /* FAITHBeautifulDayFrame.m in Sources */,
+				DC65F49C1DF16619002952CB /* FAITHThemes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC65F4211DF1633D002952CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC65F4221DF1633D002952CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC65F4251DF1633D002952CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC65F4261DF1633D002952CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC65F4281DF1633D002952CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 914CB45B3022D52E761F4A61 /* Pods-FAITHMainUIDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FAITHMainUIDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = FAITHMainUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = faith939339094.FAITHMainUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Debug;
+		};
+		DC65F4291DF1633D002952CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC628C1A182309A8541E9C1 /* Pods-FAITHMainUIDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FAITHMainUIDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = FAITHMainUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = faith939339094.FAITHMainUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC65F40B1DF1633D002952CB /* Build configuration list for PBXProject "FAITHMainUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC65F4251DF1633D002952CB /* Debug */,
+				DC65F4261DF1633D002952CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC65F4271DF1633D002952CB /* Build configuration list for PBXNativeTarget "FAITHMainUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC65F4281DF1633D002952CB /* Debug */,
+				DC65F4291DF1633D002952CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC65F4081DF1633D002952CB /* Project object */;
+}
