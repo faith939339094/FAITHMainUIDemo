@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC17064C1DF3007300C2F02F /* FAITHExperienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1706431DF3007300C2F02F /* FAITHExperienceViewController.m */; };
+		DC17064D1DF3007300C2F02F /* FAITHExperienceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1706471DF3007300C2F02F /* FAITHExperienceCell.m */; };
+		DC17064E1DF3007300C2F02F /* FAITHExperienceSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1706491DF3007300C2F02F /* FAITHExperienceSectionHeadView.m */; };
+		DC17064F1DF3007300C2F02F /* FAITHPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC17064B1DF3007300C2F02F /* FAITHPageScrollView.m */; };
 		DC65F4151DF1633D002952CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4141DF1633D002952CB /* main.m */; };
 		DC65F4201DF1633D002952CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC65F41F1DF1633D002952CB /* Assets.xcassets */; };
 		DC65F4231DF1633D002952CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC65F4211DF1633D002952CB /* LaunchScreen.storyboard */; };
@@ -60,6 +64,14 @@
 		6BC628C1A182309A8541E9C1 /* Pods-FAITHMainUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAITHMainUIDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FAITHMainUIDemo/Pods-FAITHMainUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7A848F3BC4C78CFA36B34F5E /* Pods_FAITHMainUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FAITHMainUIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		914CB45B3022D52E761F4A61 /* Pods-FAITHMainUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAITHMainUIDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FAITHMainUIDemo/Pods-FAITHMainUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DC1706421DF3007300C2F02F /* FAITHExperienceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHExperienceViewController.h; sourceTree = "<group>"; };
+		DC1706431DF3007300C2F02F /* FAITHExperienceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHExperienceViewController.m; sourceTree = "<group>"; };
+		DC1706461DF3007300C2F02F /* FAITHExperienceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHExperienceCell.h; sourceTree = "<group>"; };
+		DC1706471DF3007300C2F02F /* FAITHExperienceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHExperienceCell.m; sourceTree = "<group>"; };
+		DC1706481DF3007300C2F02F /* FAITHExperienceSectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHExperienceSectionHeadView.h; sourceTree = "<group>"; };
+		DC1706491DF3007300C2F02F /* FAITHExperienceSectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHExperienceSectionHeadView.m; sourceTree = "<group>"; };
+		DC17064A1DF3007300C2F02F /* FAITHPageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHPageScrollView.h; sourceTree = "<group>"; };
+		DC17064B1DF3007300C2F02F /* FAITHPageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHPageScrollView.m; sourceTree = "<group>"; };
 		DC65F4101DF1633D002952CB /* FAITHMainUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAITHMainUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC65F4141DF1633D002952CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DC65F41F1DF1633D002952CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -168,6 +180,45 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DC1706401DF3007300C2F02F /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				DC1706411DF3007300C2F02F /* Controller */,
+				DC1706441DF3007300C2F02F /* Model */,
+				DC1706451DF3007300C2F02F /* View */,
+			);
+			path = Experience;
+			sourceTree = "<group>";
+		};
+		DC1706411DF3007300C2F02F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC1706421DF3007300C2F02F /* FAITHExperienceViewController.h */,
+				DC1706431DF3007300C2F02F /* FAITHExperienceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC1706441DF3007300C2F02F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC1706451DF3007300C2F02F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC1706461DF3007300C2F02F /* FAITHExperienceCell.h */,
+				DC1706471DF3007300C2F02F /* FAITHExperienceCell.m */,
+				DC1706481DF3007300C2F02F /* FAITHExperienceSectionHeadView.h */,
+				DC1706491DF3007300C2F02F /* FAITHExperienceSectionHeadView.m */,
+				DC17064A1DF3007300C2F02F /* FAITHPageScrollView.h */,
+				DC17064B1DF3007300C2F02F /* FAITHPageScrollView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DC65F4071DF1633D002952CB = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +261,7 @@
 		DC65F42A1DF164D1002952CB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DC1706401DF3007300C2F02F /* Experience */,
 				DC65F4681DF16605002952CB /* FoundStore */,
 				DC65F43B1DF1653E002952CB /* Other */,
 				DC65F42B1DF164EA002952CB /* Main */,
@@ -519,6 +571,7 @@
 			files = (
 				DC65F4931DF16619002952CB /* FAITHAblumController.m in Sources */,
 				DC65F4491DF1658D002952CB /* UIView+Extension.m in Sources */,
+				DC17064E1DF3007300C2F02F /* FAITHExperienceSectionHeadView.m in Sources */,
 				DC6D9C511DF26F28005555EF /* FAITHChooseCityController.m in Sources */,
 				DC65F4A31DF16619002952CB /* FAITHFoundCellHeadView.m in Sources */,
 				DC65F4961DF16619002952CB /* FAITHFoundStoreController.m in Sources */,
@@ -534,10 +587,13 @@
 				DC65F4941DF16619002952CB /* FAITHBeautifulDayController.m in Sources */,
 				DC65F4371DF164EA002952CB /* FAITHNavigationController.m in Sources */,
 				DC6D9C571DF28521005555EF /* FAITHCityCell.m in Sources */,
+				DC17064F1DF3007300C2F02F /* FAITHPageScrollView.m in Sources */,
+				DC17064D1DF3007300C2F02F /* FAITHExperienceCell.m in Sources */,
 				DC65F4A21DF16619002952CB /* FAITHFoundCellFootView.m in Sources */,
 				DC65F4461DF1658D002952CB /* NSDate(Extension).m in Sources */,
 				DC65F4A51DF16619002952CB /* FAITHTitleView.m in Sources */,
 				DC65F4AE1DF16C95002952CB /* AppDelegate.m in Sources */,
+				DC17064C1DF3007300C2F02F /* FAITHExperienceViewController.m in Sources */,
 				DC65F4991DF16619002952CB /* FAITHBeautifulDay.m in Sources */,
 				DC65F4381DF164EA002952CB /* FAITHTabBarController.m in Sources */,
 				DC65F4AF1DF16C95002952CB /* FAITHChooseViewController.m in Sources */,

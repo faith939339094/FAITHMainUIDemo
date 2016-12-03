@@ -8,6 +8,7 @@
 
 #import "FAITHNavigationController.h"
 #import "UIImage+Extension.h"
+
 @interface FAITHNavigationController ()<UINavigationControllerDelegate>
 @property(nonatomic,strong)id popDelegate;
 @end
