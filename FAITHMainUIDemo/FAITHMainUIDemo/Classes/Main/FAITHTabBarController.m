@@ -10,8 +10,8 @@
 #import "FAITHTabBar.h"
 #import "FAITHNavigationController.h"
 #import "FAITHFoundStoreController.h"
-#import "FAITHExperienceViewController.h";
-
+#import "FAITHExperienceViewController.h"
+#import "FAITHClassifyViewController.h"
 @interface FAITHTabBarController ()<FAITHTabBarDelegate>
 @property(nonatomic,strong)NSMutableArray *items;
 
@@ -88,6 +88,12 @@
     FAITHExperienceViewController *experience=[[FAITHExperienceViewController alloc] init];
     
     [self setUpOneChildControllerWithViewController:experience image:[UIImage imageNamed: @"broadwood_1"] selectedImage:[UIImage imageNamed: @"broadwood_2"] title:@"体验"];
+    
+    //分类
+    FAITHClassifyViewController *classify=[[FAITHClassifyViewController alloc] init];
+    
+    [self setUpOneChildControllerWithViewController:classify image:[UIImage imageNamed: @"classification_1"] selectedImage:[UIImage imageNamed: @"classification_2"] title:@"分类"];
+
    
    
 }

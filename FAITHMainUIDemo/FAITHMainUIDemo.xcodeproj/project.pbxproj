@@ -11,6 +11,11 @@
 		DC17064D1DF3007300C2F02F /* FAITHExperienceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1706471DF3007300C2F02F /* FAITHExperienceCell.m */; };
 		DC17064E1DF3007300C2F02F /* FAITHExperienceSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1706491DF3007300C2F02F /* FAITHExperienceSectionHeadView.m */; };
 		DC17064F1DF3007300C2F02F /* FAITHPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC17064B1DF3007300C2F02F /* FAITHPageScrollView.m */; };
+		DC17066E1DF3024900C2F02F /* FAITHClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1706631DF3024900C2F02F /* FAITHClassifyViewController.m */; };
+		DC17066F1DF3024900C2F02F /* FAITHClassifyGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1706661DF3024900C2F02F /* FAITHClassifyGroup.m */; };
+		DC1706701DF3024900C2F02F /* FAITHClassifyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1706681DF3024900C2F02F /* FAITHClassifyItem.m */; };
+		DC1706711DF3024900C2F02F /* FAITHClassifyGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC17066B1DF3024900C2F02F /* FAITHClassifyGroupView.m */; };
+		DC1706721DF3024900C2F02F /* FAITHClassifyItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC17066D1DF3024900C2F02F /* FAITHClassifyItemCell.m */; };
 		DC65F4151DF1633D002952CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4141DF1633D002952CB /* main.m */; };
 		DC65F4201DF1633D002952CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC65F41F1DF1633D002952CB /* Assets.xcassets */; };
 		DC65F4231DF1633D002952CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC65F4211DF1633D002952CB /* LaunchScreen.storyboard */; };
@@ -72,6 +77,16 @@
 		DC1706491DF3007300C2F02F /* FAITHExperienceSectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHExperienceSectionHeadView.m; sourceTree = "<group>"; };
 		DC17064A1DF3007300C2F02F /* FAITHPageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHPageScrollView.h; sourceTree = "<group>"; };
 		DC17064B1DF3007300C2F02F /* FAITHPageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHPageScrollView.m; sourceTree = "<group>"; };
+		DC1706621DF3024900C2F02F /* FAITHClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHClassifyViewController.h; sourceTree = "<group>"; };
+		DC1706631DF3024900C2F02F /* FAITHClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHClassifyViewController.m; sourceTree = "<group>"; };
+		DC1706651DF3024900C2F02F /* FAITHClassifyGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHClassifyGroup.h; sourceTree = "<group>"; };
+		DC1706661DF3024900C2F02F /* FAITHClassifyGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHClassifyGroup.m; sourceTree = "<group>"; };
+		DC1706671DF3024900C2F02F /* FAITHClassifyItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHClassifyItem.h; sourceTree = "<group>"; };
+		DC1706681DF3024900C2F02F /* FAITHClassifyItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHClassifyItem.m; sourceTree = "<group>"; };
+		DC17066A1DF3024900C2F02F /* FAITHClassifyGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHClassifyGroupView.h; sourceTree = "<group>"; };
+		DC17066B1DF3024900C2F02F /* FAITHClassifyGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHClassifyGroupView.m; sourceTree = "<group>"; };
+		DC17066C1DF3024900C2F02F /* FAITHClassifyItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHClassifyItemCell.h; sourceTree = "<group>"; };
+		DC17066D1DF3024900C2F02F /* FAITHClassifyItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHClassifyItemCell.m; sourceTree = "<group>"; };
 		DC65F4101DF1633D002952CB /* FAITHMainUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAITHMainUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC65F4141DF1633D002952CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DC65F41F1DF1633D002952CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -219,6 +234,47 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DC1706601DF3024900C2F02F /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				DC1706611DF3024900C2F02F /* Controller */,
+				DC1706641DF3024900C2F02F /* Model */,
+				DC1706691DF3024900C2F02F /* View */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		DC1706611DF3024900C2F02F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC1706621DF3024900C2F02F /* FAITHClassifyViewController.h */,
+				DC1706631DF3024900C2F02F /* FAITHClassifyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC1706641DF3024900C2F02F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC1706651DF3024900C2F02F /* FAITHClassifyGroup.h */,
+				DC1706661DF3024900C2F02F /* FAITHClassifyGroup.m */,
+				DC1706671DF3024900C2F02F /* FAITHClassifyItem.h */,
+				DC1706681DF3024900C2F02F /* FAITHClassifyItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC1706691DF3024900C2F02F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC17066A1DF3024900C2F02F /* FAITHClassifyGroupView.h */,
+				DC17066B1DF3024900C2F02F /* FAITHClassifyGroupView.m */,
+				DC17066C1DF3024900C2F02F /* FAITHClassifyItemCell.h */,
+				DC17066D1DF3024900C2F02F /* FAITHClassifyItemCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DC65F4071DF1633D002952CB = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +317,7 @@
 		DC65F42A1DF164D1002952CB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DC1706601DF3024900C2F02F /* Classify */,
 				DC1706401DF3007300C2F02F /* Experience */,
 				DC65F4681DF16605002952CB /* FoundStore */,
 				DC65F43B1DF1653E002952CB /* Other */,
@@ -574,6 +631,7 @@
 				DC17064E1DF3007300C2F02F /* FAITHExperienceSectionHeadView.m in Sources */,
 				DC6D9C511DF26F28005555EF /* FAITHChooseCityController.m in Sources */,
 				DC65F4A31DF16619002952CB /* FAITHFoundCellHeadView.m in Sources */,
+				DC1706721DF3024900C2F02F /* FAITHClassifyItemCell.m in Sources */,
 				DC65F4961DF16619002952CB /* FAITHFoundStoreController.m in Sources */,
 				DC65F49B1DF16619002952CB /* FAITHEvents.m in Sources */,
 				DC65F49D1DF16619002952CB /* FAITHAblumCell.m in Sources */,
@@ -584,6 +642,7 @@
 				DC6D9C581DF28521005555EF /* FAITHCityHeadView.m in Sources */,
 				DC65F4A41DF16619002952CB /* FAITHFoundStoreCell.m in Sources */,
 				DC65F43A1DF164EA002952CB /* FAITHTabBar.m in Sources */,
+				DC17066E1DF3024900C2F02F /* FAITHClassifyViewController.m in Sources */,
 				DC65F4941DF16619002952CB /* FAITHBeautifulDayController.m in Sources */,
 				DC65F4371DF164EA002952CB /* FAITHNavigationController.m in Sources */,
 				DC6D9C571DF28521005555EF /* FAITHCityCell.m in Sources */,
@@ -593,8 +652,10 @@
 				DC65F4461DF1658D002952CB /* NSDate(Extension).m in Sources */,
 				DC65F4A51DF16619002952CB /* FAITHTitleView.m in Sources */,
 				DC65F4AE1DF16C95002952CB /* AppDelegate.m in Sources */,
+				DC17066F1DF3024900C2F02F /* FAITHClassifyGroup.m in Sources */,
 				DC17064C1DF3007300C2F02F /* FAITHExperienceViewController.m in Sources */,
 				DC65F4991DF16619002952CB /* FAITHBeautifulDay.m in Sources */,
+				DC1706711DF3024900C2F02F /* FAITHClassifyGroupView.m in Sources */,
 				DC65F4381DF164EA002952CB /* FAITHTabBarController.m in Sources */,
 				DC65F4AF1DF16C95002952CB /* FAITHChooseViewController.m in Sources */,
 				DC65F4A11DF16619002952CB /* FAITHFoundCellEventView.m in Sources */,
@@ -602,6 +663,7 @@
 				DC65F4481DF1658D002952CB /* UIImage+Extension.m in Sources */,
 				DC65F49A1DF16619002952CB /* FAITHBeautifulDayFrame.m in Sources */,
 				DC65F49C1DF16619002952CB /* FAITHThemes.m in Sources */,
+				DC1706701DF3024900C2F02F /* FAITHClassifyItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
