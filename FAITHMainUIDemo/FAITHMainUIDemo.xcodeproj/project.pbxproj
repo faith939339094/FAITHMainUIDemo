@@ -49,6 +49,10 @@
 		DC65F4A61DF16619002952CB /* FAITHTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC65F4921DF16619002952CB /* FAITHTitleView.xib */; };
 		DC65F4AE1DF16C95002952CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4AB1DF16C95002952CB /* AppDelegate.m */; };
 		DC65F4AF1DF16C95002952CB /* FAITHChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65F4AD1DF16C95002952CB /* FAITHChooseViewController.m */; };
+		DC6D9C511DF26F28005555EF /* FAITHChooseCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6D9C4E1DF26F28005555EF /* FAITHChooseCityController.m */; };
+		DC6D9C521DF26F28005555EF /* FAITHNearByController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6D9C501DF26F28005555EF /* FAITHNearByController.m */; };
+		DC6D9C571DF28521005555EF /* FAITHCityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6D9C541DF28521005555EF /* FAITHCityCell.m */; };
+		DC6D9C581DF28521005555EF /* FAITHCityHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6D9C561DF28521005555EF /* FAITHCityHeadView.m */; };
 		EF78F16AFC1D4569DF2AB793 /* Pods_FAITHMainUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A848F3BC4C78CFA36B34F5E /* Pods_FAITHMainUIDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -125,6 +129,14 @@
 		DC65F4AB1DF16C95002952CB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DC65F4AC1DF16C95002952CB /* FAITHChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHChooseViewController.h; sourceTree = "<group>"; };
 		DC65F4AD1DF16C95002952CB /* FAITHChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHChooseViewController.m; sourceTree = "<group>"; };
+		DC6D9C4D1DF26F28005555EF /* FAITHChooseCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHChooseCityController.h; sourceTree = "<group>"; };
+		DC6D9C4E1DF26F28005555EF /* FAITHChooseCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHChooseCityController.m; sourceTree = "<group>"; };
+		DC6D9C4F1DF26F28005555EF /* FAITHNearByController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHNearByController.h; sourceTree = "<group>"; };
+		DC6D9C501DF26F28005555EF /* FAITHNearByController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHNearByController.m; sourceTree = "<group>"; };
+		DC6D9C531DF28521005555EF /* FAITHCityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHCityCell.h; sourceTree = "<group>"; };
+		DC6D9C541DF28521005555EF /* FAITHCityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHCityCell.m; sourceTree = "<group>"; };
+		DC6D9C551DF28521005555EF /* FAITHCityHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAITHCityHeadView.h; sourceTree = "<group>"; };
+		DC6D9C561DF28521005555EF /* FAITHCityHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAITHCityHeadView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +321,10 @@
 				DC65F46D1DF16619002952CB /* FAITHBeautifulDayController.m */,
 				DC65F4701DF16619002952CB /* FAITHFoundStoreController.h */,
 				DC65F4711DF16619002952CB /* FAITHFoundStoreController.m */,
+				DC6D9C4D1DF26F28005555EF /* FAITHChooseCityController.h */,
+				DC6D9C4E1DF26F28005555EF /* FAITHChooseCityController.m */,
+				DC6D9C4F1DF26F28005555EF /* FAITHNearByController.h */,
+				DC6D9C501DF26F28005555EF /* FAITHNearByController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -331,6 +347,10 @@
 		DC65F47F1DF16619002952CB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DC6D9C531DF28521005555EF /* FAITHCityCell.h */,
+				DC6D9C541DF28521005555EF /* FAITHCityCell.m */,
+				DC6D9C551DF28521005555EF /* FAITHCityHeadView.h */,
+				DC6D9C561DF28521005555EF /* FAITHCityHeadView.m */,
 				DC65F4801DF16619002952CB /* FAITHAblumCell.h */,
 				DC65F4811DF16619002952CB /* FAITHAblumCell.m */,
 				DC65F4821DF16619002952CB /* FAITHCityButton.h */,
@@ -499,6 +519,7 @@
 			files = (
 				DC65F4931DF16619002952CB /* FAITHAblumController.m in Sources */,
 				DC65F4491DF1658D002952CB /* UIView+Extension.m in Sources */,
+				DC6D9C511DF26F28005555EF /* FAITHChooseCityController.m in Sources */,
 				DC65F4A31DF16619002952CB /* FAITHFoundCellHeadView.m in Sources */,
 				DC65F4961DF16619002952CB /* FAITHFoundStoreController.m in Sources */,
 				DC65F49B1DF16619002952CB /* FAITHEvents.m in Sources */,
@@ -506,10 +527,13 @@
 				DC65F4391DF164EA002952CB /* FAITHButton.m in Sources */,
 				DC65F49E1DF16619002952CB /* FAITHCityButton.m in Sources */,
 				DC65F4471DF1658D002952CB /* UIBarButtonItem+Extension.m in Sources */,
+				DC6D9C521DF26F28005555EF /* FAITHNearByController.m in Sources */,
+				DC6D9C581DF28521005555EF /* FAITHCityHeadView.m in Sources */,
 				DC65F4A41DF16619002952CB /* FAITHFoundStoreCell.m in Sources */,
 				DC65F43A1DF164EA002952CB /* FAITHTabBar.m in Sources */,
 				DC65F4941DF16619002952CB /* FAITHBeautifulDayController.m in Sources */,
 				DC65F4371DF164EA002952CB /* FAITHNavigationController.m in Sources */,
+				DC6D9C571DF28521005555EF /* FAITHCityCell.m in Sources */,
 				DC65F4A21DF16619002952CB /* FAITHFoundCellFootView.m in Sources */,
 				DC65F4461DF1658D002952CB /* NSDate(Extension).m in Sources */,
 				DC65F4A51DF16619002952CB /* FAITHTitleView.m in Sources */,

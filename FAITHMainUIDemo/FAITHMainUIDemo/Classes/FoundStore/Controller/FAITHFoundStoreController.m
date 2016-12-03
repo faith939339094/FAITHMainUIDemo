@@ -13,6 +13,8 @@
 #import "FAITHTitleView.h"
 #import "FAITHBeautifulDayController.h"
 #import "FAITHAblumController.h"
+#import "FAITHNearByController.h"
+#import "FAITHChooseCityController.h"
 
 @interface FAITHFoundStoreController ()<FAITHTitleViewDelegate>
 
@@ -91,19 +93,28 @@ static NSString *const ID=@"foundStore";
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     
-
+    
     
 }
 
 
 -(void)nearByBtnClick
 {
+    FAITHNearByController *nearbyController=[[FAITHNearByController alloc] init];
+    
+    [self.navigationController pushViewController:nearbyController animated:YES];
 }
 
 -(void)cityBtnClick
 {
-  
+    FAITHChooseCityController *chooseCity=[[FAITHChooseCityController alloc] init];
+    
+    UINavigationController *nav=[[UINavigationController alloc] initWithRootViewController:chooseCity];
+    
+    [self presentViewController:nav animated:YES completion:nil];
 }
+
+
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
